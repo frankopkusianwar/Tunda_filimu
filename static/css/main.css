@@ -1,0 +1,43 @@
+header{
+    padding: 1%;
+    background-color: rgb(182, 204, 224);
+}
+header h1{
+    color: rgb(231, 60, 188);
+}
+
+header a{
+    float: right;
+    text-decoration: none;
+    margin: 0.5em;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(246, 242, 242);
+}
+.content{
+    padding: 1%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    text-align: center;
+}
+.content a{
+    color: rgb(231, 60, 188);
+}
+.item{
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+footer{
+    padding: 1%;
+    background-color: black;
+    color: white;
+}
